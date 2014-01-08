@@ -21,7 +21,6 @@
 		6D235828187DD944002EE216 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D23580A187DD944002EE216 /* UIKit.framework */; };
 		6D235830187DD944002EE216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D23582E187DD944002EE216 /* InfoPlist.strings */; };
 		6D235832187DD944002EE216 /* AdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D235831187DD944002EE216 /* AdventureTests.m */; };
-		6D23583C187DD98A002EE216 /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D23583B187DD98A002EE216 /* CheckMate.framework */; };
 		6D23583F187DF90C002EE216 /* RiddleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D23583E187DF90C002EE216 /* RiddleViewController.m */; };
 		6D235845187E1091002EE216 /* Clown.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D235844187E1091002EE216 /* Clown.png */; };
 /* End PBXBuildFile section */
@@ -56,7 +55,6 @@
 		6D23582D187DD944002EE216 /* AdventureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdventureTests-Info.plist"; sourceTree = "<group>"; };
 		6D23582F187DD944002EE216 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6D235831187DD944002EE216 /* AdventureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdventureTests.m; sourceTree = "<group>"; };
-		6D23583B187DD98A002EE216 /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../Desktop/CheckMate.framework; sourceTree = "<group>"; };
 		6D23583D187DF90C002EE216 /* RiddleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RiddleViewController.h; sourceTree = "<group>"; };
 		6D23583E187DF90C002EE216 /* RiddleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RiddleViewController.m; sourceTree = "<group>"; };
 		6D235844187E1091002EE216 /* Clown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clown.png; sourceTree = "<group>"; };
@@ -67,7 +65,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D23583C187DD98A002EE216 /* CheckMate.framework in Frameworks */,
 				6D235809187DD944002EE216 /* CoreGraphics.framework in Frameworks */,
 				6D23580B187DD944002EE216 /* UIKit.framework in Frameworks */,
 				6D235807187DD944002EE216 /* Foundation.framework in Frameworks */,
@@ -109,7 +106,6 @@
 		6D235805187DD944002EE216 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6D23583B187DD98A002EE216 /* CheckMate.framework */,
 				6D235806187DD944002EE216 /* Foundation.framework */,
 				6D235808187DD944002EE216 /* CoreGraphics.framework */,
 				6D23580A187DD944002EE216 /* UIKit.framework */,
@@ -482,6 +478,7 @@
 				6D235837187DD944002EE216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D235838187DD944002EE216 /* Build configuration list for PBXNativeTarget "AdventureTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +487,7 @@
 				6D23583A187DD944002EE216 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
