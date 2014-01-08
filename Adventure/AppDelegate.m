@@ -13,7 +13,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [CheckMate initializeFramework:@"2723ca269a449911d83aecff1f916592"];
+    [CheckMate initializeFramework:@"20b72ba78167c73cd8784b25005b35c0"];
     // Override point for customization after application launch.
     return YES;
 }
