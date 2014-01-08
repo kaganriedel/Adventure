@@ -35,6 +35,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+//    UIImage *image = [UIImage imageNamed:@"clown.png"];
+//    self.imageView = [[UIImageView alloc] initWithImage:image];
 	// Do any additional setup after loading the view.
 }
 - (IBAction)onGoButtonPressed:(id)sender

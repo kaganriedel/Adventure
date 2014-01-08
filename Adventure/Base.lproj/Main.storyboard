@@ -81,6 +81,12 @@
                                     <action selector="onGoButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="AKw-Td-0bE"/>
                                 </connections>
                             </button>
+                            <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.30000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clown.png" translatesAutoresizingMaskIntoConstraints="NO" id="i7y-Tt-So3">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.11" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="1" alpha="0.23000000000000001" colorSpace="calibratedWhite"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -982,6 +988,9 @@
             <point key="canvasLocation" x="1192" y="1871"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="clown.png" width="364" height="343"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
