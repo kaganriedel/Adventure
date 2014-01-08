@@ -23,6 +23,7 @@
 		6D235832187DD944002EE216 /* AdventureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D235831187DD944002EE216 /* AdventureTests.m */; };
 		6D23583C187DD98A002EE216 /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D23583B187DD98A002EE216 /* CheckMate.framework */; };
 		6D23583F187DF90C002EE216 /* RiddleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D23583E187DF90C002EE216 /* RiddleViewController.m */; };
+		6D235843187E08BF002EE216 /* clown.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D235842187E08BF002EE216 /* clown.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		6D23583B187DD98A002EE216 /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../Desktop/CheckMate.framework; sourceTree = "<group>"; };
 		6D23583D187DF90C002EE216 /* RiddleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RiddleViewController.h; sourceTree = "<group>"; };
 		6D23583E187DF90C002EE216 /* RiddleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RiddleViewController.m; sourceTree = "<group>"; };
+		6D235842187E08BF002EE216 /* clown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clown.png; path = ../../../Desktop/clown.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		6D23580D187DD944002EE216 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6D235842187E08BF002EE216 /* clown.png */,
 				6D23580E187DD944002EE216 /* Adventure-Info.plist */,
 				6D23580F187DD944002EE216 /* InfoPlist.strings */,
 				6D235812187DD944002EE216 /* main.m */,
@@ -240,6 +243,7 @@
 				6D23581F187DD944002EE216 /* Images.xcassets in Resources */,
 				6D235811187DD944002EE216 /* InfoPlist.strings in Resources */,
 				6D23581A187DD944002EE216 /* Main.storyboard in Resources */,
+				6D235843187E08BF002EE216 /* clown.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
